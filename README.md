@@ -11,12 +11,12 @@
 ## 2. Aims & Objectives
 
 To develop a Neural Network algorithm for pattern recognition in ceramic tape reflected mode images based on category of defect. Category of defect in ceramic tape images includes
-* No Defect
-* Small Defect
-* Strips
-* Streaks
-* Surface Irregularities
-* Technology Defect
+* No Defect,
+* Small Defect,
+* Strips,
+* Streaks,
+* Surface Irregularities,
+* Technology Defect.
 
 Sample images for category of defects in ceramic tape images are shown below.
 
@@ -45,5 +45,6 @@ Raw image data collected from line camera is of dimension 2 x 8192 pixels. High 
 * Able to broadly localize the defect in the images.
 * Get more images for training.
 
+#### 3.2 Data Labeling
 
 
