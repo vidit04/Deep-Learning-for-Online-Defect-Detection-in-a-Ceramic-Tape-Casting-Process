@@ -33,6 +33,9 @@ The aim of the thesis is achieved by the following objectives.
 5. Selecting better performing model from binary classification results and training them on ceramic tape dataset for multi-classification.
 6. Evaluation of architecture performance for binary classification and multi-classification.
 
-
+## 3. Methodology
+#### 3.1 Data Collection
+Raw image data collected from line camera is of dimension 2 x 8192 pixels. High resolution image data include images of moving ceramic tape in reflected mode and transmission mode. In a single experiment of ceramic tape casting, 50 m (approx.) of ceramic tape is produced and 300,000 (approx.) high resolution images are collected. High resolution reflected mode images of dimension 8192 x 8192 are created by stitching reflected mode array and transmission mode array from the raw source image in sequence. Large reflected mode images of dimension 8192 x 8192 pixels are sliced into smaller 500 x 500 pixels images as shown in the figure below.
+![](images/col.png)
 
 
