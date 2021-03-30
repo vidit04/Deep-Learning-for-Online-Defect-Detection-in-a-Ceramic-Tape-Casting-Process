@@ -10,7 +10,7 @@
 
 ## 2. Aims & Objectives
 
-Aim of my thesis is to develop a Neural Network algorithm for pattern recognition in ceramic tape reflected mode images based on category of defect. Category of defect in Ceramic tape images includes
+To develop a Neural Network algorithm for pattern recognition in ceramic tape reflected mode images based on category of defect. Category of defect in ceramic tape images includes
 * No Defect
 * Small Defect
 * Strips
