@@ -12,7 +12,7 @@ U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple def
 
 * Streak defect - Brown mask
 * Strips defect - Sky blue mask
-* Small defect -  Pink mask
+* Small defect -  Red mask
 * No defect - invisible mask
 
 ### 1. Model Prediction for Streaks defect
