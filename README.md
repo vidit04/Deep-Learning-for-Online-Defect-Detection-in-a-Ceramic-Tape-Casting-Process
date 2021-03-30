@@ -38,7 +38,12 @@ The aim of the thesis is achieved by the following objectives.
 Raw image data collected from line camera is of dimension 2 x 8192 pixels. High resolution image data include images of moving ceramic tape in reflected mode and transmission mode. In a single experiment of ceramic tape casting, 50 m (approx.) of ceramic tape is produced and 300,000 (approx.) high resolution images are collected. High resolution reflected mode images of dimension 8192 x 8192 are created by stitching reflected mode array and transmission mode array from the raw source image in sequence. Large reflected mode images of dimension 8192 x 8192 pixels are sliced into smaller 500 x 500 pixels images as shown in the figure below.
 ![](images/col.png)
 #### Advantages of slicing over resizing
-*Utilize high- resolution image data, no loss of pixel data.
+* Utilize high- resolution image data, no loss of pixel data.
+* Small defect cover significant pixel area of image. 
+  * Image size is reduced , defect size remains unchanged.
+* Small defect has higher chances to be detected.
+* Able to broadly localize the defect in the images.
+* Get more images for training.
 
 
 
