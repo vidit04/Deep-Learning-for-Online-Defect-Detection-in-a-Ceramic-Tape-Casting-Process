@@ -49,6 +49,9 @@ Raw image data collected from line camera is of dimension 2 x 8192 pixels. High 
 
 #### Bounding Box Labeling
 Total 7647 images are labeled with six categories of defect. Labeled images used to train encoder models. Image labeling tool named **“Label-studio”** is used.
+
+![](images/bounding.png)
+
 #### Pixel-wise labeling
 Total 1004 images are labeled with four categories of defect. Labeled images used to train auto encoder models. Image labeling tool named **“LabelMe”** is used.
 
