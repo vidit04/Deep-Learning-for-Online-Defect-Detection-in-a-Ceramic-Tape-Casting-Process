@@ -18,6 +18,6 @@ To develop a Neural Network algorithm for pattern recognition in ceramic tape re
 * Surface Irregularities
 * Technology Defect
 
-![](images/images.png)
+![](images/cat.png)
 
 
