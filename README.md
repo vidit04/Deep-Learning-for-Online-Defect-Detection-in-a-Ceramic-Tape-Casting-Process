@@ -94,4 +94,4 @@ Multi Classification Image distribution for Encoder Models- 1735 bounding box la
 ![](images/dist2.png)
 
 Multi Classification Image distribution for Auto Encoder Models -1004 pixel labelled images with Train-Test distribution of 90% -10% ratio are used.
-![](images/dist4.png)
+![](images/dist5.png)
