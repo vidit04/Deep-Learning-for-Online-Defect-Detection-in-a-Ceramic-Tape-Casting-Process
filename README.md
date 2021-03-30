@@ -131,7 +131,7 @@ Three best performing models from Binary classification experiments along with U
 
 Overall results for Multi Classification experiments are mentioned below.
 
-![](images/multi_overall.png)
+![](images/multi_overall1.png)
 
 ## 5. Conclusion
 1. High resolution ceramic tape image data of dimension 2 x 8192 pixels is converted into 500 x 500 pixels reflected mode and transmission mode ceramic tape images.
