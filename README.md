@@ -15,19 +15,19 @@ U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple def
 * Small defect -  Pink mask
 * No defect - invisible mask
 
-1. Model Prediction for Streaks defect
+###1. Model Prediction for Streaks defect
 
 ![](images/img1.png)
 
 ![](images/img2.png)
 
-2. Model Prediction for Strips defect
+###2. Model Prediction for Strips defect
 
 ![](images/img3.png)
 
 ![](images/img4.png)
 
-3. Model Prediction for Small defect
+###3. Model Prediction for Small defect
 
 ![](images/img5.png)
 
@@ -35,7 +35,7 @@ U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple def
 
 ## 2. Aims & Objectives
 
-To develop a Neural Network algorithm for pattern recognition in ceramic tape reflected mode images based on category of defect. Category of defect in ceramic tape images includes
+Develop a Neural Network algorithm for pattern recognition in ceramic tape reflected mode images based on category of defect. Category of defect in ceramic tape images includes
 * No Defect,
 * Small Defect,
 * Strips,
