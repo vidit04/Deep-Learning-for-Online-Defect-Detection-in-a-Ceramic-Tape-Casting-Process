@@ -16,15 +16,21 @@ U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple def
 * No defect - invisible mask
 
 1. Model Prediction for Streaks defect
+
 ![](images/img1.png)
+
 ![](images/img2.png)
 
 2. Model Prediction for Strips defect
+
 ![](images/img3.png)
+
 ![](images/img4.png)
 
 3. Model Prediction for Small defect
+
 ![](images/img5.png)
+
 ![](images/img6.png)
 
 ## 2. Aims & Objectives
