@@ -22,4 +22,17 @@ Sample images for category of defects in ceramic tape images are shown below.
 
 ![](images/cat.png)
 
+###Objectives
+
+The aim of the thesis is achieved by the following objectives.
+
+1. Collecting high-resolution ceramic tape image data of 2 x 8192 pixels dimensions and slicing it into smaller image dimensions of 500 x 500 pixels in Python.
+2. Converting the ceramic tape image data into a labeled dataset.
+3. Creating training routine for different neural network architectures in Python using Keras and TensorFlow.
+4. Training different neural network architectures on labeled ceramic tape dataset for binary classification.
+5. Selecting better performing model from binary classification results and training them on ceramic tape dataset for multi-classification.
+6. Evaluation of architecture performance for binary classification and multi-classification.
+
+
+
 
