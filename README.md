@@ -89,7 +89,7 @@ Overall results for Binary Classification experiments are mentioned below.
 
 ![](images/bin_overall1.png)
 
-#### 4.1 Multi Classification
+#### 4.2 Multi Classification
 Multi Classification Image distribution for **Encoder Models**- 1735 bounding box labeled images with Train-Test distribution of 90% -10% ratio are used.
 ![](images/dist2.png)
 
@@ -107,3 +107,20 @@ Three best performing models from Binary classification experiments along with U
 Overall results for Multi Classification experiments are mentioned below.
 
 ![](images/multi_overall.png)
+
+## 4. Conclusion
+1. High resolution ceramic tape image data of dimension 2 x 8192 pixels is converted into 500 x 500 pixels reflected mode and transmission mode ceramic tape images.
+2. Sliced reflected mode are converted into labeled dataset based on category of defect.
+ * Total 7647 bounding box labeled images.
+ * Total 1004 pixel labeled images.
+3. **Training routine** for selected architectures is set up in Python using Keras and TensorFlow.
+4. Selected architectures are trained for **binary classification** experiments and  three best performing models based on Average Maximum Test Accuracy of are selected.
+5. Three best performing models from binary classification experiments along with U-Net architecture with different encoders are trained for **multi- classification** experiments.
+
+
+
+
+
+
+
+
