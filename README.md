@@ -75,9 +75,19 @@ Image Augmentation is used as pre-processing technique. Increases total training
 #### 4.1 Binary Classification
 Binary Classification Image distribution - 1152 bounding box labeled images with Train-Test distribution of 90% -10% ratio are used.
 
+![](images/dist1.png)
 
+Different Neural Network Architectures are selected for binary classifiation experiments. List of architectures are mentioned below.
+* ResNet (No Augmentated data)
+* ResNet
+* Inception V3
+* XceptionNet
+* InceptionResNetV2
+* EfficientNet
 
+Overall results for Binary Classification are mentioned below.
 
+![](images/bin_overall.png)
 
 
 
