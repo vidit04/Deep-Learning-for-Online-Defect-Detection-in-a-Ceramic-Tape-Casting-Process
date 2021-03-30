@@ -55,7 +55,7 @@ Examples for bounding box labeled images are shown below.
 
 #### Pixel-wise labeling
 Total 1004 images are labeled with four categories of defect. Labeled images used to train auto encoder models. Image labeling tool named **“LabelMe”** is used.
-Examples for pixeled labeled images are shown below.
+Examples for pixel labeled images are shown below.
 
 ![](images/pixels.png)
 
