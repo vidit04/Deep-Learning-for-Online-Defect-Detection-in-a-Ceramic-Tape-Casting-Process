@@ -19,5 +19,5 @@ To develop a Neural Network algorithm for pattern recognition in ceramic tape re
 * Technology Defect
 
 ![What is this](images/nd1.png)
-import markdown
+
 ![alttext](http://example.com/image.png "caption")
