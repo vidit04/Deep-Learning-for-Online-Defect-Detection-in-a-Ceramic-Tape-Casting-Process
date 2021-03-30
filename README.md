@@ -87,7 +87,7 @@ Different Neural Network Architectures are selected for binary classifiation exp
 
 Overall results for Binary Classification are mentioned below.
 
-![](images/bin_overall.png)
+![](images/bin_overall1.png)
 
 
 
