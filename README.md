@@ -22,7 +22,7 @@ Sample images for category of defects in ceramic tape images are shown below.
 
 ![](images/cat.png)
 
-###Objectives
+### Objectives
 
 The aim of the thesis is achieved by the following objectives.
 
