@@ -112,7 +112,7 @@ Different Neural Network Architectures are selected for binary classifiation exp
 
 Overall results for Binary Classification experiments are mentioned below.
 
-![](images/bin_overall1.png)
+![](images/bin_overall2.png)
 
 #### 4.2 Multi Classification
 Multi Classification Image distribution for **Encoder Models**- 1735 bounding box labeled images with Train-Test distribution of 90% -10% ratio are used.
