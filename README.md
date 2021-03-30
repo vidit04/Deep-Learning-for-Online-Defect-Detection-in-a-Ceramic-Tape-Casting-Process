@@ -71,7 +71,13 @@ Image Augmentation is used as pre-processing technique. Increases total training
 * Architectures performances are evaluated in form of their predictions on test dataset defined as “Test Accuracy”.
 * Three experiment for each selected architecture is conducted with random distribution of Train Test split of images. (with constant Train Test split ratio of 90% -10% )
 
-## 3. Results
+## 4. Results
+#### 4.1 Binary Classification
+Binary Classification Image distribution - 1152 bounding box labeled images with Train-Test distribution of 90% -10% ratio are used.
+
+
+
+
 
 
 
