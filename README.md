@@ -1,5 +1,5 @@
 # Deep-Learning-for-Online-Defect-Detection-in-a-Ceramic-Tape-Casting-Process
-### Contents of Discussion
+### Table of Contents
 1. Model Prediction for U-Net (with EfficientNetB3 as encoder)
 2. Aims and Objectives
 3. Methodology
