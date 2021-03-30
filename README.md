@@ -18,7 +18,7 @@ To develop a Neural Network algorithm for pattern recognition in ceramic tape re
 * Surface Irregularities
 * Technology Defect
 
-Sample images for category of defects in ceramic tape images
+Sample images for category of defects in ceramic tape images are shown below.
 
 ![](images/cat.png)
 
