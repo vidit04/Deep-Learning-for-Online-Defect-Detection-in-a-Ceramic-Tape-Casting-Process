@@ -64,3 +64,13 @@ Examples for pixel labeled images are shown below.
 Image Augmentation is used as pre-processing technique. Increases total training images by adding variation in training dataset. Augmentations are added in series during training are Brightness, Rotation, Skew, Zoom, Horizontal flip ,Vertical flip, Width shift and Height shift. Examples of augmented images shown in image below.
 
 ![](images/Aug1.png)
+
+#### 3.4 Neural Network Model Training
+* Training routines for different architectures are developed in Python using Keras and TensorFlow.
+* Selected architectures are trained by taking advantage of Transfer Learning Technique. (i.e.  pre-trained ImageNet weights are used as their initial weights for model training.)
+* Architectures performances are evaluated in form of their predictions on test dataset defined as “Test Accuracy”.
+* Three experiment for each selected architecture is conducted with random distribution of Train Test split of images. (with constant Train Test split ratio of 90% -10% )
+
+
+
+
