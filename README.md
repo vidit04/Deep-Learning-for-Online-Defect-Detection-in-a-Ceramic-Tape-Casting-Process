@@ -8,7 +8,7 @@
 6. How to re-use the code.
 
 ## 1. Examples of Predictions by U-Net (with EfficientNetB3 as encoder)
-U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple defects (i.e. four classes of defects) in Ceramic tape images. In examples shown below , model make predictions on test images and create a mask over the defect area and classify the defect. Color of masks and category of defects predicted by the model are mention below.
+U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple defects (i.e. four classes of defects) in Ceramic tape images. In examples shown below , model make predictions on test images and create a mask over the defect area and classify the defect. Images on left are original test images and images on right contain the model predictions. Color of masks and category of defects predicted by the model are mention below.
 
 * Streak defect - Brown
 * Strips defect - Sky blue
