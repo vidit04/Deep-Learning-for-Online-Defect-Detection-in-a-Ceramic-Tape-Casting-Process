@@ -85,9 +85,13 @@ Different Neural Network Architectures are selected for binary classifiation exp
 * InceptionResNetV2
 * EfficientNet
 
-Overall results for Binary Classification are mentioned below.
+Overall results for Binary Classification experiments are mentioned below.
 
 ![](images/bin_overall1.png)
 
+#### 4.1 Multi Classification
+Multi Classification Image distribution for Encoder Models- 1735 bounding box labeled images with Train-Test distribution of 90% -10% ratio are used.
+![](images/dist2.png)
 
-
+Multi Classification Image distribution for Auto Encoder Models -1004 pixel labelled images with Train-Test distribution of 90% -10% ratio are used.
+![](images/dist3.png)
