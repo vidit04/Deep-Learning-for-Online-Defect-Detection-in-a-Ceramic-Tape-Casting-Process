@@ -90,10 +90,10 @@ Overall results for Binary Classification experiments are mentioned below.
 ![](images/bin_overall1.png)
 
 #### 4.1 Multi Classification
-Multi Classification Image distribution for Encoder Models- 1735 bounding box labeled images with Train-Test distribution of 90% -10% ratio are used.
+Multi Classification Image distribution for **Encoder Models**- 1735 bounding box labeled images with Train-Test distribution of 90% -10% ratio are used.
 ![](images/dist2.png)
 
-Multi Classification Image distribution for U-Net Models - 1004 pixel labelled images with Train-Test distribution of 90% -10% ratio are used.
+Multi Classification Image distribution for **U-Net Models** - 1004 pixel labelled images with Train-Test distribution of 90% -10% ratio are used.
 ![](images/dist5.png)
 
 Three best performing models from Binary classification experiments along with U-Net architecture models are selected for the multi classification experiments. List of architectures are mentioned below.
@@ -105,4 +105,5 @@ Three best performing models from Binary classification experiments along with U
 * U-Net (with EfficientNetB3 as encoder)
 
 Overall results for Multi Classification experiments are mentioned below.
+
 ![](images/multi_overall.png)
