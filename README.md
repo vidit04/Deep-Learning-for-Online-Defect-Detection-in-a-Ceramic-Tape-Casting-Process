@@ -59,7 +59,7 @@ Examples for pixel labeled images are shown below.
 
 ![](images/pixels.png)
 
-#### 3.2 Data Augmentation
+#### 3.3 Data Augmentation
 
 Image Augmentation is used as pre-processing technique. Increases total training images by adding variation in training dataset. Augmentations are added in series during training are Brightness, Rotation, Skew, Zoom, Horizontal flip ,Vertical flip, Width shift and Height shift. Examples of augmented images shown in image below.
 
