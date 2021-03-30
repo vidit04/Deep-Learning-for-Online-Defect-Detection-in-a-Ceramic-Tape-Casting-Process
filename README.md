@@ -142,7 +142,49 @@ Overall results for Multi Classification experiments are mentioned below.
 4. Selected architectures are trained for **binary classification** experiments and  three best performing models based on Average Maximum Test Accuracy of are selected.
 5. Three best performing models from binary classification experiments along with U-Net architecture with different encoders are trained for **multi- classification** experiments.
 
+## 5. How to use the code
 
+The repository contains training routine for Encoder Models and U-Net models
+
+### Encoder Models
+
+<b>XceptionNet_binary.py</b> and <b>EfficientNetB5_binary.py</b> can be modified for multi-classification and to import other architectures available in Keras.
+
+To run these scripts TensorFlow 2.0+ is required. Other parameters that need to be changed while modifying the scripts are
+
+a) Training And Test Data Paths
+
+b) Image dimensions
+
+c) Intensity of Image Augmentation
+
+d) Learning rate (Constant learning rate is used in XceptionNet_binary.py. Whereas Two-stage training i.e. pre-training and post-training with different learning rates in two different stages are used in EfficientNetB5_binary.py. The learning rate value needs to be changed in the learning rate scheduler function with epoch values.)
+
+e) Epochs (Epoch value need to be changed in 2 places in EfficientNetB5_binary.py as the model is trained in 2 stages)
+
+f) Number of the data points in the x-axis for creating the graph. (same as Epochs) 
+
+### U-Net Models
+
+<b>Seg2.py</b> is used to train the model and can be modified to create different U-Net architectures with standard architectures as backend. In Seg2.py Segmentation-model library is used to create U-Net architecture and compile with the combination of focal loss and dice loss with metrics to measure performance used are F1 score and IOU score. Training routine can be modified for the 2 stage training. And learning rate values can be changed in the learning rate scheduler function with epoch values.
+
+<b>Data_generator_new.py</b> and <b>Data_generator_valid_new.py</b> responsible for generating training data and validation data for the training routine and can be modified.
+
+<b>Seg22.py</b> can be used to train the model for further epochs by importing the H5 file for model weights as initial weights.
+
+<b>Predict.py</b> can be modified to make predictions for the saved model for Test images.
+
+<b>Environment.yml</b> is an anaconda environment file consists of list of libraries required to run the U-Net scripts in windows.
+
+To run the script TensorFlow 1.15.0 is required. Other parameters that need to be changed while modifying the scripts are
+
+a) Training And Test Data Paths (in Seg2.py and Seg22.py)
+
+b) Image dimensions (in Data_generator_new.py)
+
+c) Intensity of Image Augmentation (in Data_generator_new.py)
+
+d) Learning rate (in Seg2.py and Seg22.py)
 
 
 
