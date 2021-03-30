@@ -5,7 +5,7 @@
 3. Methodology
 4. Results 
 5. Conclusion
-6. How to re-use the code.
+6. How to use the code.
 
 ## 1. Examples of Predictions by U-Net (with EfficientNetB3 as encoder)
 U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple defects (i.e. four classes of defects) in Ceramic tape images. In examples shown below , model make predictions on test images and create a mask over the defect area and classify the defect. Images on left are original test images and images on right contain the model predictions. Color of masks and category of defects predicted by the model are mention below.
@@ -142,7 +142,7 @@ Overall results for Multi Classification experiments are mentioned below.
 4. Selected architectures are trained for **binary classification** experiments and  three best performing models based on Average Maximum Test Accuracy of are selected.
 5. Three best performing models from binary classification experiments along with U-Net architecture with different encoders are trained for **multi- classification** experiments.
 
-## 5. How to use the code
+## 6. How to use the code
 
 The repository contains training routine for Encoder Models and U-Net models
 
