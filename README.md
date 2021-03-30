@@ -1,12 +1,16 @@
 # Deep-Learning-for-Online-Defect-Detection-in-a-Ceramic-Tape-Casting-Process
-### Contents of Thesis
-1. Motivation
+### Contents of Discussion
+1. Model Prediction for U-Net (with EfficientNetB3 as encoder)
 2. Aims and Objectives
 3. Methodology
 4. Results 
 5. Conclusion
+6. How to re-use the code.
 
-## 1. Motivation
+## 1. Model Prediction for U-Net (with EfficientNetB3 as encoder)
+![](images/img1.png)
+![](images/img2.png)
+
 
 ## 2. Aims & Objectives
 
@@ -108,7 +112,7 @@ Overall results for Multi Classification experiments are mentioned below.
 
 ![](images/multi_overall.png)
 
-## 4. Conclusion
+## 5. Conclusion
 1. High resolution ceramic tape image data of dimension 2 x 8192 pixels is converted into 500 x 500 pixels reflected mode and transmission mode ceramic tape images.
 2. Sliced reflected mode are converted into labeled dataset based on category of defect.
  * Total 7647 bounding box labeled images.
