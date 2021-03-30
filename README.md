@@ -1,14 +1,14 @@
 # Deep-Learning-for-Online-Defect-Detection-in-a-Ceramic-Tape-Casting-Process
 ### Table of Contents
-1. Model Prediction for U-Net (with EfficientNetB3 as encoder)
+1. Examples of Model Predictions by U-Net (with EfficientNetB3 as encoder)
 2. Aims and Objectives
 3. Methodology
 4. Results 
 5. Conclusion
 6. How to re-use the code.
 
-## 1. Model Prediction for U-Net (with EfficientNetB3 as encoder)
-U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple defects in Ceramic tape images. In examples shown below , model make predictions on test images and create a mask over the defect area and classify the defect. Color of mask and category of defect mention below.
+## 1. Examples of Model Prediction by U-Net (with EfficientNetB3 as encoder)
+U-Net model (with EfficientNetB3 as encoder) is trained to classify multiple defects (i.e. four classes of defects) in Ceramic tape images. In examples shown below , model make predictions on test images and create a mask over the defect area and classify the defect. Color of masks and category of defects predicted by the model are mention below.
 
 * Streak defect - Brown mask
 * Strips defect - Sky blue mask
