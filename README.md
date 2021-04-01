@@ -174,7 +174,9 @@ f) Number of the data points in the x-axis for creating the graph. (sa
 
 <b>Predict.py</b> can be modified to make predictions for the saved model for Test images.
 
-<b>Environment.yml</b> is an anaconda environment file consists of list of libraries required to run the U-Net scripts in windows.
+<b>Environment_conda_windows.yml</b> is an anaconda environment file consists of list of libraries required to run the U-Net scripts in windows. 
+And <b>Linux_environment.txt</b> is for linux environment.
+
 
 To run the script TensorFlow 1.15.0 is required. Other parameters that need to be changed while modifying the scripts are
 
