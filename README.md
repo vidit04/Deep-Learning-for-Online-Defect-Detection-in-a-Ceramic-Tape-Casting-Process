@@ -148,7 +148,7 @@ The repository contains training routine for Encoder Models and U-Net mo
 
 ### Encoder Models
 
-<b>XceptionNet_binary.py</b> and <b>EfficientNetB5_binary.py</b> can be modified for multi-classification and to import other architectures available in Keras.
+<b>XceptionNet_binary.py</b> and <b>EfficientNetB5_binary.py</b> can be modified for multi-classification and to import other architectures available in Keras. To use the script on custom dataset, images need to be placed in data directory and seperate sub-directories need to be created for each category inside data directory.
 
 To run these scripts TensorFlow 2.0+ is required. Other parameters that need to be changed while modifying the scripts are
 
